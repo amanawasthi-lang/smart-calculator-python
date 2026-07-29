@@ -153,9 +153,14 @@ def power():
 
 def square_root():
     print(Fore.BLUE + "\n========== SQUARE ROOT ==========")
+    print("I AM INSIDE SQUARE_ROOT")
 
     try:
-        num = float(input(Fore.YELLOW + "Enter a number: "))
+        text = input(Fore.YELLOW + "Enter a number: ")
+        print("Input received:", repr(text))
+
+        num = float(text)
+        print("Converted:", num)
 
         if num < 0:
             print(Fore.RED + "\n❌ Square root of a negative number is not possible.")
@@ -171,8 +176,8 @@ def square_root():
         save_calculation(calculation)
         show_result(calculation)
 
-    except ValueError:
-        print(Fore.RED + "\n❌ Invalid input! Please enter a valid number.")
+    except Exception as e:
+        print("Exception:", type(e).__name__, e)
 
 
 def percentage():
@@ -223,7 +228,7 @@ def modulus():
 
 def show_history():
     print(Fore.CYAN + "\n╔══════════════════════════════════════════════╗")
-    print(Fore.CYAN + "║" + Fore.GREEN + "          📜 CALCULATION HISTORY            " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.GREEN + "          📜 CALCULATION HISTORY            " + Fore.CYAN + " ║")
     print(Fore.CYAN + "╚══════════════════════════════════════════════╝")
 
     try:

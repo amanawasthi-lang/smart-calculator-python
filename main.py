@@ -24,9 +24,9 @@ while True:
     # ==========================
     print(Fore.CYAN + "╔════════════════════════════════════════════════════╗")
     print(Fore.CYAN + "║" + Fore.GREEN + "               🧮 SMART CALCULATOR                 " + Fore.CYAN + "║")
-    print(Fore.CYAN + "║" + Fore.YELLOW + "                    Version 2.0                   " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.YELLOW + "                    Version 2.0                   " + Fore.CYAN + " ║")
     print(Fore.CYAN + "╠════════════════════════════════════════════════════╣")
-    print(Fore.CYAN + "║" + Fore.WHITE + "              Built with Python ❤️                " + Fore.CYAN + "║")
+    print(Fore.CYAN + "║" + Fore.WHITE + "              Built with Python ❤️                " + Fore.CYAN + "  ║")
     print(Fore.CYAN + "╚════════════════════════════════════════════════════╝")
 
     print(Fore.WHITE + "\n📋 Select an Operation\n")

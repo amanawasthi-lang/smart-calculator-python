@@ -105,15 +105,17 @@ python main.py
 
 ### Home Screen
 
-> Add `screenshots/home.png`
+![Home Screen](screenshots/home.png)
+
 
 ### Result
 
-> Add `screenshots/result.png`
+![Calculation Result](screenshots/result.png)
+
 
 ### History
 
-> Add `screenshots/history.png`
+![History](screenshots/history.png)
 
 ---
 
