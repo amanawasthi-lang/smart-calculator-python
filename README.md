@@ -105,17 +105,15 @@ python main.py
 
 ### Home Screen
 
-![Home Screen](screenshots/home.jpeg)
-
+<img src="screenshots/home.png" width="400">
 
 ### Result
 
-![Calculation Result](screenshots/result.jpeg)
-
+<img src="screenshots/result.png" width="400">
 
 ### History
 
-![History](screenshots/history.jpeg)
+<img src="screenshots/history.png" width="400">
 
 ---
 
