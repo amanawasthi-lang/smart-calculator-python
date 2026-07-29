@@ -105,17 +105,17 @@ python main.py
 
 ### Home Screen
 
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/home.jpeg)
 
 
 ### Result
 
-![Calculation Result](screenshots/result.png)
+![Calculation Result](screenshots/result.jpeg)
 
 
 ### History
 
-![History](screenshots/history.png)
+![History](screenshots/history.jpeg)
 
 ---
 
